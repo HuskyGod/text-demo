@@ -1,0 +1,36 @@
+.wrap > .nav {
+    flex: 1;
+    border-right: 2px solid #F5F5F5;
+    height: 100vh;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.5);
+    background: #BCABA5;
+}
+.wrap > .nav > ul {
+    list-style: none;
+    border-bottom: 2px solid #795548;
+    padding: 0px;
+    margin: 20px;
+}
+.wrap > .nav > ul > li {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.wrap > .nav > ul > li > a {
+    padding: 10px;
+    text-decoration: none;
+    color: #795548;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+    transition: all 1s;
+}
+.wrap > .nav > ul > li > a:hover {
+    background: #795548;
+    color: white;
+}
+.wrap > .nav > ul > li > a.active {
+    background: #795548;
+    color: white;
+} 

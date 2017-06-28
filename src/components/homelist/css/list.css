@@ -1,0 +1,43 @@
+#list_warp {
+    max-width: 1000px;
+    margin:0px auto;
+    padding: 10px;    
+}
+#list_warp .list_btn {
+    text-align: right;
+    margin: 10px 0px;
+}
+#list_content {
+    padding:0px 20px;
+}
+#info {
+    border-top:1px solid #ececec;  
+    padding: 10px;    
+    display: flex;
+    justify-content: space-between;
+}
+.handinfo {
+    box-shadow: 0px 3px 21px 6px rgba(0,0,0,0.1)
+}
+#comment {
+    border-top:1px solid #ececec;  
+    overflow: hidden;
+    max-height: 700px;
+}
+#comment ul {
+    list-style: none;
+    padding:0px;
+    margin:0px;
+}
+#comment ul li {
+    border-top:1px solid #ececec;  
+    border-bottom:1px solid #ececec;  
+    padding: 20px;
+}
+#comment ul li .comment_info{
+    display: flex;
+    justify-content: space-between;
+}
+#comment ul li .comment_content{
+    padding: 10px;
+}

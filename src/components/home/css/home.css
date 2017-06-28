@@ -1,0 +1,60 @@
+body{
+    overflow: hidden;
+}
+#list {
+    padding: 20px 50px;
+    overflow-y: auto;
+    height: 80vh;    
+}
+#list .list_item {
+    padding: 20px;
+    border:5px solid #795548;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    position: relative;
+    margin: 50px 0px;
+}
+#list .header {
+    cursor:pointer;
+}
+#list .content {
+    padding: 10px;
+}
+#list .item_clone {
+    position: absolute;
+    background: white;
+    top: -25px;
+    right: -25px;
+    border:5px solid #795548;
+    font-size: 24px;
+    font-weight: bold;
+    color:#795548;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+#postBar_hr {
+    display: flex;
+    justify-content: space-between;
+}
+#postBar{
+    padding: 10px;
+}
+#postBar_hr .add {
+    padding:10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#form {
+    padding: 20px;
+}
+
+#contentinput {
+    padding: 20px;
+    border:1px solid #e0e0e0;
+}
